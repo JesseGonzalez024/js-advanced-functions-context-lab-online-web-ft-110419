@@ -92,7 +92,7 @@ let calculatePayroll = function(arrays){
     }, 0)
 }
 
-let createEmployeeRecords = function(arrays){
+function createEmployeeRecords(arrays){
     return arrays.map(function(row){
          return createEmployeeRecord(row)
      })
